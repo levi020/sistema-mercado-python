@@ -22,12 +22,12 @@ class Mercado:
         elif desc == "2":
             Functions.listar(produtos)
         elif desc == "3":
-            print("qua produtos deseja apagar:")
+            print("qual produtos deseja apagar:")
             Functions.listar(produtos)
             produto = input()
             Functions.apagar(produtos, produto)
         elif desc == "4":
-            print("qua produtos deseja modificar:")
+            print("qual produtos deseja modificar:")
             Functions.listar(produtos)
             produto = input()
             print("qual o novo nome para o produto?")
